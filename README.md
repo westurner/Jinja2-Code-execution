@@ -1,7 +1,7 @@
 #Jinja2 Command injection from_string function <br />
-#Website: Ordina.nl \n
-Author: Jameel Nabbo  \n
-Email: jameel.nabbo[at]ordina.nl  \n
+#Website: Ordina.nl <br />
+Author: Jameel Nabbo   <br />
+Email: jameel.nabbo[at]ordina.nl   <br />
 
 // from_string function is prone to SSTI where it takes the "source" parameter as a template object and render it and then return it.
 
