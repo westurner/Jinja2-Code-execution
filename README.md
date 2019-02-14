@@ -8,6 +8,7 @@ Email: jameel.nabbo[at]ordina.nl   <br />
 
 //here's an example about the vulnerable code that uses from_string function in order to handle a variable in GET called 'username' and returns Hello {username}:
 
+```python
 
 import Flask
 import request
@@ -22,6 +23,9 @@ def index():
 
 if __name__ == "__main__":
 	app.run(host='127.0.0.1' , port=4444)
+
+```
+
 
 POC
 //Exploiting the username param
