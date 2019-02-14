@@ -1,4 +1,6 @@
-<div style="text-align=:center;width=100%;">
+<div style="
+    text-align: center;
+">
 <a href="https://ordina.nl" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTgtBKmWL2i-76KccY9u0mrxAF9i0bPAJasA2YYeapgsL02AGlg" 
 alt="Ordina  Research Lab" /></a>
 </div>
