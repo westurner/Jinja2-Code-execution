@@ -1,5 +1,7 @@
+<div style="text-align=:center;width=100%;">
 <a href="https://ordina.nl" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTgtBKmWL2i-76KccY9u0mrxAF9i0bPAJasA2YYeapgsL02AGlg" 
-alt="Ordina  Research Lab" width="240" text-align="center" height="180" border="10" /></a>
+alt="Ordina  Research Lab" /></a>
+</div>
 
 #Jinja2 Command injection from_string function <br />
 #Website: Ordina.nl <br />
