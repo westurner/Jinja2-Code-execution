@@ -9,6 +9,7 @@ alt="Ordina  Research Lab" /></a>
 #Website: Ordina.nl <br />
 Author: Jameel Nabbo   <br />
 Email: jameel.nabbo[at]ordina.nl   <br />
+Exploit-DB: https://www.exploit-db.com/exploits/46386 <br />
 
 // from_string function is prone to SSTI where it takes the "source" parameter as a template object and render it and then return it.
 
